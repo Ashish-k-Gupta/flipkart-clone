@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Jost:ital,wght@0,200;1,100&family=Playfair+Display&display=swap');
+
+:root{
+ --main-bg-color:  #2874f0;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    
+
+}
+header{
+    background-color: var(--main-bg-color)
+    color: White;
+    border: 2px solid white;
+    font-family: 'Playfair Display', serif;
+}
+body{
+
+    background-color: hsl(217, 91%, 50%)
+      
+}
+
+.logo img{
+    width: 130px;
+    padding: 0 14px 0px 150px;
+
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: blue;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 129px;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0 26px;
+
+    
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(221, 208, 208);
+}
+.search  input{
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin: 0px 0px 0px 90px;
+    border-radius: 5px;
+    display: inline;
+}
+::placeholder{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: rgb(59, 57, 57);
+    padding: 0px 10px;
+}
+
+
+.button {
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: var(--main-bg-color)
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px lightgrey;
+  }
+  
+  .button:hover {background-color: #0974d2}
+  
+  .button:active {
+    background-color: rgb(248, 0, 0);
+    box-shadow: 0 5px rgb(7, 44, 155);
+    transform: translateY(4px);
+    transform: translateX(4px);
+  }
+
+
+.container{
+    min-height: calc(100vh - 129px - 10vh);
+}
+
+.slider{
+    margin: 15px auto 0 125px; 
+    width: auto;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.card1
+{ 
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+    margin: 20px;
+    padding: 34px;
+    /* border: 1px solid grey; */
+    background-color: white;
+    /* font-family: 'Alfa Slab One', cursive; */
+}
+.card2
+{ 
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+    margin: 20px;
+    padding: 34px;
+    /* border: 1px solid grey; */
+    background-color: white;
+    /* font-family: 'Alfa Slab One', cursive; */
+}
+.card3
+{ 
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+    margin: 20px;
+    padding: 34px;
+    /* border: 1px solid grey; */
+    background-color: white;
+    /* font-family: 'Alfa Slab One', cursive; */
+}
+
+.card1{
+    justify-content: center;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+.card1 :hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+
+}
+.card2{
+    justify-content: center;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+.card2 :hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+
+}
+.card3{
+    justify-content: center;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+.card3 :hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+
+}
+
+
+
+
+
+/* CSS positions: Static (difault), absolute, relative, fixed, sticky
+Ralative position there you will be able to move it by it's top bottomm, left and right.
+But also it will only move ralative to it's normal position and will leave a gap at it's normal postion. */
+
+
+
+
+
+
+.subheader{
+    position: relative;
+    margin: 10px 0px;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+}
+.text-center{
+    text-align: center;
+    
+}
+.card-item
+{   display: inline-flex;
+    margin: 20px;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+
+.text-center-s1{
+    margin: 2px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+.lines{
+    margin-top: 40px;
+}
+
+
+footer {
+    background-color: var(--main-bg-color)
+    color: white;
+    height: 10vh;
+    font-size: 3vh;
+    font-family: 'Playfair Display', serif;
+}
